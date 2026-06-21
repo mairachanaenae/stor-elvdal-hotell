@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "siteName": "Stor-Elvdal Hotell",
+    "place": "Koppang",
+    "tagline": "Et hotell med særpreg",
+    "subtagline": "Kunst- og matopplevelser midt i Østerdalen",
+    "description": "Boutique-hotell på et fredet tun med ni tømmerbygninger i Koppang. Norsk Kultursenter, tradisjonsmat laget fra bunnen og villmark midtveis mellom Oslo og Trondheim."
+  },
+  "nav": {
+    "home": "Hjem",
+    "rooms": "Rom og leiligheter",
+    "restaurant": "Restaurant og bar",
+    "meetings": "Kurs & konferanse",
+    "events": "Selskaper",
+    "kultursenter": "Norsk Kultursenter",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "book": "Bestill rom"
+  },
+  "common": {
+    "bookNow": "Bestill nå",
+    "bookRoom": "Bestill rom",
+    "readMore": "Les mer",
+    "explore": "Utforsk",
+    "phone": "Telefon",
+    "email": "E-post",
+    "address": "Adresse",
+    "openingHours": "Åpningstider",
+    "bookTour": "Bestill omvisning med Pål Sagen",
+    "callToBook": "Ring for å bestille",
+    "getThere": "Slik finner du oss",
+    "menuLabel": "Meny",
+    "closeMenu": "Lukk meny",
+    "language": "Språk",
+    "note": "Merk"
+  },
+  "home": {
+    "heroKicker": "Koppang · Østerdalen",
+    "heroCtaBook": "Sjekk ledige rom",
+    "heroCtaExplore": "Opplev Norsk Kultursenter",
+    "introHeading": "Velkommen til tunet",
+    "introBody": "Hotellet er omkranset av et vakkert tun som gir ro i sjelen. Rundt en åpen gårdsplass, innenfor en tradisjonell skigard, ligger ni fredede og vernede tømmerbygninger – flyttet hit fra hele Østerdalen og satt sammen til et levende kulturtun midt i Koppang sentrum.",
+    "introBody2": "Her møtes kunst, kultur og mat under samme himmel: et boutique-hotell med eget Norsk Kultursenter, hjemmelaget tradisjonsmat og villmark like utenfor døren.",
+    "pillarsHeading": "Tre opplevelser under samme tak",
+    "pillars": [
+      {
+        "title": "Matopplevelser",
+        "text": "Vi legger vår stolthet i å servere tradisjonsmat laget fra bunnen, med så mange lokale råvarer som mulig – og vår egen Storelgen Aquavit.",
+        "link": "Se restaurant og bar"
+      },
+      {
+        "title": "Kunstopplevelser",
+        "text": "Et nasjonalt betydelig kunst- og boksamling i eget Norsk Kultursenter – med verk av Sohlberg, Melgaard og Haukeland, og omvisninger ledet av eieren selv.",
+        "link": "Til Norsk Kultursenter"
+      },
+      {
+        "title": "Natur & opplevelser",
+        "text": "Det fredede tømmertunet, Rondane, Glomma og en jernbanenær villmark i Østerdalen – midtveis mellom Oslo og Trondheim.",
+        "link": "Slik finner du oss"
+      }
+    ],
+    "kultursenterKicker": "Vårt særpreg",
+    "kultursenterHeading": "Norsk Kultursenter",
+    "kultursenterBody": "Hele anlegget fikk status som Norsk Kultursenter i juli 2017. Her finner du et museum, museumsbibliotek og en nasjonalt betydelig kunst- og boksamling – fra A.O. Vinjes «Ferdaminni» og Harald Sohlbergs «Vinternatt i Rondane» til et stort oljemaleri av Bjarne Melgaard.",
+    "kultursenterCta": "Utforsk samlingen",
+    "locationKicker": "Beliggenhet",
+    "locationHeading": "Midtveis mellom Oslo og Trondheim",
+    "locationBody": "Koppang er administrasjonssenteret i Stor-Elvdal kommune, i Østerdalen langs Glomma – Norges lengste elv. Hotellet ligger 350 meter fra Koppang stasjon på Rørosbanen. La bilen stå og ta toget via entur.no.",
+    "locationFacts": [
+      { "label": "Fra Oslo", "value": "ca. 220 km" },
+      { "label": "Til Røros", "value": "ca. 130 km" },
+      { "label": "Til stasjonen", "value": "350 m" },
+      { "label": "Til Rondane", "value": "ca. 30 min" }
+    ],
+    "greenShortcutHeading": "Den grønne snarvei – Riksvei 3",
+    "greenShortcutBody": "Rv3 gjennom Østerdalen er om lag 42 km kortere enn E6 gjennom Gudbrandsdalen, med slakere stigninger og færre tettsteder. Veien bærer rundt 90 % av tungtrafikken mellom Oslo og Trondheim og er, i motsetning til E6 over Dovrefjell, aldri stengt på grunn av været om vinteren.",
+    "mooseHeading": "Storelgen",
+    "mooseBody": "Ved Bjøråa rasteplass langs Rv3, om lag 11 km nord for Koppang, står Storelgen – en høypolert elgskulptur i syrefast stål, 10,3 m høy. Den var verdens største elgskulptur da den ble avduket i 2015, og er i dag verdens nest høyeste. En speilblank, fotogen landemerke mot mørk granskog.",
+    "natureHeading": "Natur og aktiviteter",
+    "natureBody": "Glomma Fiskeforenings felleskort dekker mer enn 90 km elv og over 50 vann, med ørret, harr, gjedde, abbor og sik. Rondane – Norges første nasjonalpark (1962) – er gateway via Atna, med Sohlbergplassen utsiktspunkt over Atnsjøen. I tillegg finnes jakt, fotturer, langrenn, kanopadling og Tekna Park alpinanlegg i gangavstand fra sentrum.",
+    "eventsHeading": "Hva skjer",
+    "events": [
+      {
+        "title": "VM i fluefiske 2026",
+        "date": "27. juli – 2. august 2026",
+        "text": "World Masters (WMFFC) og World Ladies (WLFFC) arrangeres i regionen. Masters er Koppang-basert; Ladies har base i Åkrestrømmen (Rendalen). Vertskommuner: Stor-Elvdal, Rendalen og Engerdal."
+      },
+      {
+        "title": "Kaupangrmart'n",
+        "date": "Uke 29",
+        "text": "Det årlige markedet i Koppang. Mange av arrangementene har historisk funnet sted på hotellets tun."
+      },
+      {
+        "title": "Harrfestivalen",
+        "date": "Første helg i september",
+        "text": "Glomma Fiskeforenings festival til harrens ære, med fluefiskekonkurranse, fiskekurs, mat og fest – og kåring av harrkonge, harrprinsesse og harrprins."
+      }
+    ],
+    "bookingHeading": "Klar for en opphold med særpreg?",
+    "bookingBody": "Sjekk ledige rom og bestill direkte. Booking går via Visbook.",
+    "bookingCta": "Sjekk ledige rom"
+  },
+  "rooms": {
+    "kicker": "Overnatting",
+    "heading": "Rom og leiligheter",
+    "intro": "Hyggelige rom med enkel og god standard på selve tunet, og moderne leiligheter rett ved. Hvert romdør har sitt eget dyremotiv.",
+    "list": [
+      {
+        "name": "Familierom",
+        "text": "Ett familierom med enkeltseng og en familiekøyeseng (fire senger totalt), bad med badekar. Kan kobles sammen med naborommet for inntil seks personer. Hyggelige rom med enkel standard."
+      },
+      {
+        "name": "To-sengsrom",
+        "text": "11 tosengsrom i hovedbygningen med enkel og god standard. Bad med dusj og WC."
+      },
+      {
+        "name": "To-sengsrom Kaffekvernhuset",
+        "text": "Rimelige tosengsrom i Kaffekvernhuset like ved hovedbygningen, enkel standard. Eget bad (enkelte rom deler bad)."
+      },
+      {
+        "name": "Hotelleiligheter",
+        "text": "Moderne, fullt utstyrte leiligheter i Koppang sentrum, rett overfor hotellet, i øverste etasje av et nyere bygg. Bestilles på telefon eller e-post."
+      }
+    ],
+    "factsHeading": "Godt å vite",
+    "facts": [
+      "Ingen minibar på rommene – men kafé, bar og puben «Nye Ladden» på området.",
+      "Alle rom i hovedbygningen har eget bad; to har badekar.",
+      "Kjæledyr er tillatt på utvalgte rom utenfor hovedbygningen etter avtale.",
+      "Hver romdør har sitt eget dyrebilde."
+    ],
+    "inventoryNote": "Romkapasitet: 19 dobbeltrom på tunet (hovedbygning og to tømmerstuer), pluss 7 moderne leiligheter med 16 dobbeltrom i nabobygget Besøkssenter Østerdalen (fra 2021). Ta kontakt for oppdatert ledighet og priser.",
+    "ctaHeading": "Bestill ditt rom",
+    "ctaBody": "Direktebooking via Visbook, eller ring oss på 62 46 04 55."
+  },
+  "restaurant": {
+    "kicker": "Mat og drikke",
+    "heading": "Restaurant og bar",
+    "intro": "Tunet kafè er hotellets renoverte spisested. Vi legger vår stolthet i å servere tradisjonsmat laget fra bunnen, med så mange lokale råvarer som mulig – og egne kaker.",
+    "menuHeading": "Fra menyen",
+    "menuItems": [
+      "Saftige hamburgere fra Angus storfe",
+      "«Moos pizza»",
+      "Vårruller",
+      "Klassisk norsk lunsj – vafler og laks",
+      "Koldtbord",
+      "17. mai-buffet med kaffe og kakebord i Barfrøstua"
+    ],
+    "menuNote": "Liten, men god meny – prisnivå omtrent 160–260 kr per person. Be om dagens meny ved bestilling.",
+    "aquavitHeading": "Storelgen Aquavit",
+    "aquavitBody": "Hotellets stolthet – vår egen akevitt, produsert av Det Norske Brenneri i Grimstad. Smaksnoter av tørket frukt, krydder, vanilje, karve, mynte, sitrus og anis.",
+    "pubHeading": "Puben «Askeladden»",
+    "pubBody": "Det populære utestedet på Koppang, i en østerdalsstue fra rundt 1850 (også kjent som «Nye Ladden»). Et stort oljemaleri av Bjarne Melgaard er midtpunktet i interiøret. Puben har pubkvelder med musikk, trubadurkvelder og månedlig quiz, og åpner gjerne en gang i uken."
+  },
+  "meetings": {
+    "kicker": "Kurs & konferanse",
+    "heading": "Møter og konferanser med særpreg",
+    "intro": "Vi tar imot grupper fra 10 til 70 personer i ett rom, med standard AV-utstyr og WiFi. På herregården Nordstu, 600 meter fra hotellet, finnes ytterligere romslige konferansefasiliteter.",
+    "featuresHeading": "Fasiliteter",
+    "features": [
+      "Grupper fra 10 til 70 personer i ett rom",
+      "Standard AV-utstyr og trådløst nett",
+      "Romslige lokaler på Nordstu, 600 m unna",
+      "Tradisjonsmat fra Tunet kafè",
+      "Overnatting på tunet"
+    ],
+    "ctaHeading": "Planlegg ditt arrangement",
+    "ctaBody": "Ta kontakt for et tilbud tilpasset deres gruppe."
+  },
+  "events": {
+    "kicker": "Selskaper",
+    "heading": "Selskapslokaler og feiringer",
+    "intro": "Skal dere feire noe stort? Tunet rammer inn dagen med historie og ro. Vi tilbyr selskapslokaler for fest og feiring.",
+    "barfrostuaHeading": "Barfrøstua – kronen i juvelen",
+    "barfrostuaBody": "Den nyrestaurerte Barfrøstua, en østerdalsstue fra ca. 1800, var en av de første bygningene som ble fredet i Norge (av Riksantikvaren i 1923). I dag er den feststue med plass til om lag 80 personer til middag – en stemningsfull ramme for bryllup, jubileer og store anledninger.",
+    "featuresHeading": "Til feiringen",
+    "features": [
+      "Feststue i Barfrøstua med plass til ca. 80 til middag",
+      "Tradisjonsmat laget fra bunnen",
+      "Egne kaker og kakebord",
+      "Overnatting til gjestene på tunet"
+    ],
+    "ctaHeading": "La oss skape dagen sammen",
+    "ctaBody": "Ta kontakt så finner vi den beste løsningen for ditt selskap."
+  },
+  "kultursenter": {
+    "kicker": "Vårt særpreg · status juli 2017",
+    "heading": "Norsk Kultursenter",
+    "intro": "Hele anlegget fikk status som Norsk Kultursenter i juli 2017, merket med brune severdighetsskilt langs Rv3 og Fv30. Her finner du et museum, et museumsbibliotek og en nasjonalt betydelig kunst- og boksamling.",
+    "museumHeading": "Museet – «Fra vuggen i Sogn til Østerdalens rike»",
+    "museumBody": "Fjord-, Fjell- og Reisemuseum med tema fra nasjonsbyggingstiden 1814–1864, i østerdalsstua «Hektoen». Museet og museumsbiblioteket åpnet 16. juli 2016, innviet av Nasjonalmuseets seniorkurator Nils Messel og ordfører Terje Hoffstad.",
+    "libraryHeading": "Biblioteket «Jegersborg»",
+    "libraryBody": "Museumsbiblioteket holder til i tømmerbygningen «Jegersborg», den siste bygningen som kom til tunet (ca. 1992), med bokhyller fra lokale Kaupang Møbler. Jegersborg egner seg for litterære arrangementer for inntil 25 personer.",
+    "treasuresHeading": "Utvalgte skatter",
+    "treasures": [
+      "Flere varianter av A.O. Vinjes «Ferdaminni» (1861), inspirert av reisen gjennom Stor-Elvdal i 1860",
+      "Et signert eksemplar av Harald Sohlbergs litografi «Vinternatt i Rondane» (1917), som henger i resepsjonen",
+      "Førsteutgaver av nasjonsbyggerne Wergeland, Welhaven, Schwach, Vinje og Bjørnson",
+      "Olaus Magnus' førsteutgave om de nordiske folk (1555)",
+      "Jacob Zieglers kart (1532), det første som navngir Østerdalen",
+      "Et trykt manuskript med Rikard Nordraaks noter til «Ja, vi elsker»",
+      "En stor Alf Prøysen-samling"
+    ],
+    "artHeading": "Kunsten på tunet",
+    "artBody": "Et 2×3 m oljemaleri av Bjarne Melgaard i baren «Nye Ladden», og verk av blant andre Franz Widerberg, Gunnar S. Gundersen, Frits Thaulow og Nils Hansteen. Museumssamlingen har arbeider tilskrevet Johannes Flintoe, W.M. Carpelan, J.C. Dahl og A. Tidemand, samt sjeldne antikke Norgeskart.",
+    "sculptureHeading": "«Bølgen» av Arnold Haukeland",
+    "sculptureBody": "På tunet står «Bølgen», en ca. 2 m høy skulptur i polert rustfritt stål av modernisten Arnold Haukeland (1924–1983), utført 1979–80 og avduket i oktober 1980. Den ble fjernet ca. 2004 og kjøpt tilbake av Pål Sagen i 2015 – et skarpt modernistisk motstykke til tømmeret.",
+    "toursHeading": "Omvisninger med Pål Sagen",
+    "toursBody": "Eieren tilbyr personlige omvisninger i museet og biblioteket etter avtale. Museet har ingen faste åpningstider, men åpner ved arrangementer og på forespørsel. Historisk har omvisninger vært annonsert torsdager og lørdager – ta kontakt for å avtale tid.",
+    "ctaHeading": "Bestill en omvisning",
+    "ctaBody": "Opplev samlingen sammen med eieren selv. Ta kontakt for å avtale tid.",
+    "externalNote": "Norsk Kultursenter har også sitt eget nettsted: norsk-kultursenter.no"
+  },
+  "about": {
+    "kicker": "Om oss",
+    "heading": "Et hotell med historie",
+    "intro": "Et boutique-hotell bygget rundt et tun av ni fredede tømmerbygninger – og en eier som har gjort kunst og kultur til hjertet av stedet.",
+    "historyHeading": "Tunet og historien",
+    "historyBody": "Hotellet ble grunnlagt i 1975 som «Koppangtunet Hotell» av skipsreder Lars Krogh. I 1974–75 flyttet han ni fredede tømmerbygninger fra andre steder i Østerdalen til tomten og bygget en moderne hotellbygning. Etter noen vanskelige år overtok Pål Sagen i mars 2014.",
+    "tunHeading": "Tunet",
+    "tunBody": "Anlegget er formet som et tun på om lag 10 mål, omkranset av en tradisjonell skigard, med hovedbygning, eget scene-/konsertbygg og ni fredede eller vernede tømmerbygninger. Kronen i juvelen er den nyrestaurerte Barfrøstua – en østerdalsstue fra ca. 1800, fredet av Riksantikvaren allerede i 1923 og blant de best bevarte i sitt slag.",
+    "ownerHeading": "Pål Sagen – eier og kurator",
+    "ownerBody": "Pål Sagen (f. 1959) er bokantikvar, gallerist og kunsthandler, og eier Galleri Bygdøy Allé i Oslo – en av Norges ledende handlere innen antikke kart, norske prospekter, sjeldne bøker og klassisk norsk kunst. Han er eneeier og daglig leder av både Stor-Elvdal Hotell AS og Norsk Kultursenter AS, og har slektsbånd til Luster i Sogn – grunnlaget for museets tema «Fra vuggen i Sogn».",
+    "factsHeading": "Fakta",
+    "facts": [
+      { "label": "Grunnlagt", "value": "1975 (som Koppangtunet Hotell)" },
+      { "label": "Eier siden", "value": "Pål Sagen, mars 2014" },
+      { "label": "Tunet", "value": "9 fredede tømmerbygninger, ca. 10 mål" },
+      { "label": "Ansatte", "value": "ca. 20" }
+    ]
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "heading": "Kontakt og booking",
+    "intro": "Vi tar gjerne imot deg. Booking går via Visbook, eller ta direkte kontakt.",
+    "addressLabel": "Adresse",
+    "address": "Kjemsjøveien 1, 2480 Koppang",
+    "phoneLabel": "Telefon",
+    "phone": "62 46 04 55",
+    "mobileLabel": "Mobil (Pål Sagen)",
+    "mobile": "928 18 465",
+    "emailLabel": "E-post",
+    "email": "contact@storelvdalhotell.no",
+    "hoursLabel": "Åpningstider",
+    "hours": "Man–lør 09:00–21:00 · Søn 09:00–20:00",
+    "bookingHeading": "Booking",
+    "bookingBody": "Bestill rom direkte via Visbook.",
+    "bookingCta": "Gå til booking",
+    "getThereHeading": "Slik finner du oss",
+    "getThereBody": "350 meter fra Koppang stasjon på Rørosbanen – la bilen stå og ta toget via entur.no. Med bil: følg Rv3, «Den grønne snarvei», gjennom Østerdalen. Fra Oslo ca. 220 km; Røros ca. 130 km via Fv30."
+  },
+  "footer": {
+    "tagline": "Et hotell med særpreg – kunst- og matopplevelser midt i Østerdalen.",
+    "quickLinks": "Snarveier",
+    "contactHeading": "Kontakt",
+    "bookHeading": "Booking",
+    "bookBody": "Booking via Visbook",
+    "bookCta": "Bestill rom",
+    "rights": "Stor-Elvdal Hotell AS · org.nr. 991 109 056",
+    "prototypeNote": "Prototype – faktagrunnlag fra offentlig tilgjengelig informasjon."
+  }
+}

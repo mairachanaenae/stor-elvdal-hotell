@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "siteName": "Stor-Elvdal Hotell",
+    "place": "Koppang",
+    "tagline": "Ein Hotel mit Charakter",
+    "subtagline": "Kunst- und Kulinarikerlebnisse mitten im Østerdalen",
+    "description": "Boutique-Hotel auf einem denkmalgeschützten Hof aus neun Holzgebäuden in Koppang. Norsk Kultursenter, hausgemachte traditionelle Küche und Wildnis auf halbem Weg zwischen Oslo und Trondheim."
+  },
+  "nav": {
+    "home": "Startseite",
+    "rooms": "Zimmer & Apartments",
+    "restaurant": "Restaurant & Bar",
+    "meetings": "Tagungen & Konferenzen",
+    "events": "Festlichkeiten",
+    "kultursenter": "Norsk Kultursenter",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "book": "Zimmer buchen"
+  },
+  "common": {
+    "bookNow": "Jetzt buchen",
+    "bookRoom": "Zimmer buchen",
+    "readMore": "Mehr erfahren",
+    "explore": "Entdecken",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "openingHours": "Öffnungszeiten",
+    "bookTour": "Führung mit Pål Sagen buchen",
+    "callToBook": "Zum Buchen anrufen",
+    "getThere": "So finden Sie uns",
+    "menuLabel": "Menü",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache",
+    "note": "Hinweis"
+  },
+  "home": {
+    "heroKicker": "Koppang · Østerdalen",
+    "heroCtaBook": "Verfügbarkeit prüfen",
+    "heroCtaExplore": "Norsk Kultursenter entdecken",
+    "introHeading": "Willkommen auf dem Tun",
+    "introBody": "Das Hotel liegt eingebettet in einen wunderschönen „Tun“ – einen traditionellen Hofplatz, der die Seele zur Ruhe bringen lässt. Um einen offenen Innenhof, eingefasst von einem traditionellen „Skigard“-Holzzaun, stehen neun denkmalgeschützte Holzgebäude – aus dem ganzen Østerdalen hierher versetzt und zu einem lebendigen Kulturhof mitten in Koppang vereint.",
+    "introBody2": "Hier treffen sich Kunst, Kultur und Kulinarik unter einem Himmel: ein Boutique-Hotel mit eigenem Norsk Kultursenter, hausgemachter traditioneller Küche und Wildnis direkt vor der Tür.",
+    "pillarsHeading": "Drei Erlebnisse unter einem Dach",
+    "pillars": [
+      {
+        "title": "Kulinarikerlebnisse",
+        "text": "Wir sind stolz darauf, traditionelle Küche von Grund auf selbst zuzubereiten, mit so vielen regionalen Zutaten wie möglich – und unserem eigenen Storelgen Aquavit.",
+        "link": "Restaurant & Bar ansehen"
+      },
+      {
+        "title": "Kunsterlebnisse",
+        "text": "Eine national bedeutende Kunst- und Büchersammlung in unserem eigenen Norsk Kultursenter – mit Werken von Sohlberg, Melgaard und Haukeland und Führungen vom Eigentümer selbst.",
+        "link": "Zum Norsk Kultursenter"
+      },
+      {
+        "title": "Natur & Erlebnisse",
+        "text": "Der denkmalgeschützte Holzhof, Rondane, der Fluss Glomma und eine per Bahn erreichbare Wildnis im Østerdalen – auf halbem Weg zwischen Oslo und Trondheim.",
+        "link": "So finden Sie uns"
+      }
+    ],
+    "kultursenterKicker": "Was uns auszeichnet",
+    "kultursenterHeading": "Norsk Kultursenter",
+    "kultursenterBody": "Die gesamte Anlage erhielt im Juli 2017 den Status „Norsk Kultursenter“. Sie finden hier ein Museum, eine Museumsbibliothek und eine national bedeutende Kunst- und Büchersammlung – von A.O. Vinjes „Ferdaminni“ und Harald Sohlbergs „Vinternatt i Rondane“ bis zu einem großen Ölgemälde von Bjarne Melgaard.",
+    "kultursenterCta": "Die Sammlung entdecken",
+    "locationKicker": "Lage",
+    "locationHeading": "Auf halbem Weg zwischen Oslo und Trondheim",
+    "locationBody": "Koppang ist der Verwaltungssitz der Kommune Stor-Elvdal, im Tal Østerdalen entlang der Glomma – Norwegens längstem Fluss. Das Hotel liegt 350 Meter vom Bahnhof Koppang an der Røros-Bahn entfernt. Lassen Sie das Auto stehen und nehmen Sie den Zug über entur.no.",
+    "locationFacts": [
+      { "label": "Ab Oslo", "value": "ca. 220 km" },
+      { "label": "Nach Røros", "value": "ca. 130 km" },
+      { "label": "Zum Bahnhof", "value": "350 m" },
+      { "label": "Nach Rondane", "value": "ca. 30 Min." }
+    ],
+    "greenShortcutHeading": "Die grüne Abkürzung – Reichsstraße 3",
+    "greenShortcutBody": "Die Rv3 durch das Østerdalen ist rund 42 km kürzer als die E6 durch das Gudbrandsdalen, mit sanfteren Steigungen und weniger Ortschaften. Sie trägt etwa 90 % des Schwerverkehrs zwischen Oslo und Trondheim und ist – anders als die E6 über das Dovrefjell – im Winter nie wetterbedingt gesperrt.",
+    "mooseHeading": "Storelgen",
+    "mooseBody": "Am Rastplatz Bjøråa entlang der Rv3, etwa 11 km nördlich von Koppang, steht Storelgen – ein hochglanzpolierter Elch aus Edelstahl, 10,3 m hoch. Bei seiner Enthüllung 2015 war er die größte Elchskulptur der Welt und ist heute die zweithöchste. Ein spiegelblankes, fotogenes Wahrzeichen vor dunklem Fichtenwald.",
+    "natureHeading": "Natur und Aktivitäten",
+    "natureBody": "Die gemeinsame Angelkarte der Glomma Fiskeforening umfasst mehr als 90 km Fluss und über 50 Seen, mit Forelle, Äsche, Hecht, Barsch und Felchen. Rondane – Norwegens erster Nationalpark (1962) – ist über Atna erreichbar, mit dem Aussichtspunkt Sohlbergplassen über dem Atnsjøen. Dazu Jagd, Wandern, Langlauf, Kanufahren und das Alpingebiet Tekna Park in Gehweite vom Ortszentrum.",
+    "eventsHeading": "Was ansteht",
+    "events": [
+      {
+        "title": "Fliegenfischen-WM 2026",
+        "date": "27. Juli – 2. August 2026",
+        "text": "Die World Masters (WMFFC) und World Ladies (WLFFC) finden in der Region statt. Die Masters haben ihren Sitz in Koppang; die Ladies in Åkrestrømmen (Rendalen). Gastgeberkommunen: Stor-Elvdal, Rendalen und Engerdal."
+      },
+      {
+        "title": "Kaupangrmart'n",
+        "date": "Woche 29",
+        "text": "Der jährliche Markt in Koppang. Viele seiner Veranstaltungen fanden historisch auf dem Tun des Hotels statt."
+      },
+      {
+        "title": "Harrfestivalen",
+        "date": "Erstes Septemberwochenende",
+        "text": "Das Festival der Glomma Fiskeforening zu Ehren der Äsche, mit Fliegenfischen-Wettbewerb, Angelkursen, Essen und Fest – samt Krönung von Äschenkönig, -prinzessin und -prinz."
+      }
+    ],
+    "bookingHeading": "Bereit für einen Aufenthalt mit Charakter?",
+    "bookingBody": "Prüfen Sie die Verfügbarkeit und buchen Sie direkt. Die Buchung läuft über Visbook.",
+    "bookingCta": "Verfügbarkeit prüfen"
+  },
+  "rooms": {
+    "kicker": "Übernachten",
+    "heading": "Zimmer & Apartments",
+    "intro": "Gemütliche Zimmer in einfachem, gutem Standard auf dem Tun selbst und moderne Apartments direkt gegenüber. Jede Zimmertür trägt ihr eigenes Tiermotiv.",
+    "list": [
+      {
+        "name": "Familienzimmer",
+        "text": "Ein Familienzimmer mit Einzelbett und einem Familien-Etagenbett (insgesamt vier Betten), Bad mit Badewanne. Kann mit dem Nachbarzimmer für bis zu sechs Personen verbunden werden. Gemütliche Zimmer in einfachem Standard."
+      },
+      {
+        "name": "Zweibettzimmer",
+        "text": "11 Zweibettzimmer im Hauptgebäude in einfachem und gutem Standard. Bad mit Dusche und WC."
+      },
+      {
+        "name": "Zweibettzimmer Kaffekvernhuset",
+        "text": "Günstige Zweibettzimmer im Kaffekvernhuset direkt am Hauptgebäude, einfacher Standard. Eigenes Bad (einige Zimmer teilen sich ein Bad)."
+      },
+      {
+        "name": "Hotelapartments",
+        "text": "Moderne, voll ausgestattete Apartments im Zentrum von Koppang, gegenüber dem Hotel, im obersten Geschoss eines neueren Gebäudes. Buchung per Telefon oder E-Mail."
+      }
+    ],
+    "factsHeading": "Gut zu wissen",
+    "facts": [
+      "Keine Minibar in den Zimmern – aber Café, Bar und der Pub „Nye Ladden“ auf dem Gelände.",
+      "Alle Zimmer im Hauptgebäude haben ein eigenes Bad; zwei verfügen über eine Badewanne.",
+      "Haustiere sind in ausgewählten Zimmern außerhalb des Hauptgebäudes nach vorheriger Absprache erlaubt.",
+      "Jede Zimmertür hat ihr eigenes Tierbild."
+    ],
+    "inventoryNote": "Zimmerkapazität: 19 Doppelzimmer auf dem Tun (Hauptgebäude und zwei Blockhäuser), dazu 7 moderne Apartments mit 16 Doppelzimmern im benachbarten Besøkssenter Østerdalen (Besucherzentrum Østerdalen, seit 2021). Kontaktieren Sie uns für aktuelle Verfügbarkeit und Preise.",
+    "ctaHeading": "Buchen Sie Ihr Zimmer",
+    "ctaBody": "Direktbuchung über Visbook oder rufen Sie uns an: +47 62 46 04 55."
+  },
+  "restaurant": {
+    "kicker": "Essen und Trinken",
+    "heading": "Restaurant & Bar",
+    "intro": "Tunet kafè ist das renovierte Lokal des Hotels. Wir sind stolz darauf, traditionelle Küche von Grund auf selbst zuzubereiten, mit so vielen regionalen Zutaten wie möglich – und eigenem Kuchen.",
+    "menuHeading": "Aus der Speisekarte",
+    "menuItems": [
+      "Saftige Hamburger vom Angus-Rind",
+      "„Moos pizza“",
+      "Frühlingsrollen",
+      "Klassischer norwegischer Lunch – Waffeln und Lachs",
+      "Kaltes Buffet (koldtbord)",
+      "Buffet zum 17. Mai mit Kaffee- und Kuchentafel in der Barfrøstua"
+    ],
+    "menuNote": "Eine kleine, aber gute Speisekarte – rund 160–260 NOK pro Person. Fragen Sie beim Bestellen nach dem Tagesangebot.",
+    "aquavitHeading": "Storelgen Aquavit",
+    "aquavitBody": "Der Stolz des Hauses – unser eigener Aquavit, hergestellt von Det Norske Brenneri in Grimstad. Aromen von Trockenfrüchten, Gewürzen, Vanille, Kümmel, Minze, Zitrus und Anis.",
+    "pubHeading": "Der Pub „Askeladden“",
+    "pubBody": "Der beliebte Treffpunkt in Koppang, in einem Østerdalen-Blockhaus von etwa 1850 (auch bekannt als „Nye Ladden“). Ein großes Ölgemälde von Bjarne Melgaard bildet den Mittelpunkt des Interieurs. Der Pub bietet Pub-Abende mit Musik, Troubadour-Abende und ein monatliches Quiz und öffnet in der Regel etwa einmal pro Woche."
+  },
+  "meetings": {
+    "kicker": "Tagungen & Konferenzen",
+    "heading": "Tagungen und Konferenzen mit Charakter",
+    "intro": "Wir empfangen Gruppen von 10 bis 70 Personen in einem Raum, mit standardmäßiger AV-Technik und WLAN. Im Herrenhaus Nordstu, 600 Meter vom Hotel entfernt, gibt es weitere großzügige Konferenzräume.",
+    "featuresHeading": "Ausstattung",
+    "features": [
+      "Gruppen von 10 bis 70 Personen in einem Raum",
+      "Standardmäßige AV-Technik und WLAN",
+      "Großzügige Räume in Nordstu, 600 m entfernt",
+      "Traditionelle Küche aus dem Tunet kafè",
+      "Übernachtung auf dem Tun"
+    ],
+    "ctaHeading": "Planen Sie Ihre Veranstaltung",
+    "ctaBody": "Nehmen Sie Kontakt auf für ein auf Ihre Gruppe zugeschnittenes Angebot."
+  },
+  "events": {
+    "kicker": "Festlichkeiten",
+    "heading": "Festräume und Feiern",
+    "intro": "Gibt es etwas Großes zu feiern? Der Tun rahmt den Tag mit Geschichte und Ruhe. Wir bieten Festräume für Feiern und Anlässe.",
+    "barfrostuaHeading": "Barfrøstua – das Kronjuwel",
+    "barfrostuaBody": "Die frisch restaurierte Barfrøstua, ein Østerdalen-Blockhaus von etwa 1800, war eines der ersten denkmalgeschützten Gebäude Norwegens (durch den Riksantikvar 1923). Heute ist sie ein Festsaal mit Platz für etwa 80 Personen zum Dinner – ein stimmungsvoller Rahmen für Hochzeiten, Jubiläen und große Anlässe.",
+    "featuresHeading": "Für die Feier",
+    "features": [
+      "Festsaal in der Barfrøstua mit Platz für ca. 80 Personen zum Dinner",
+      "Traditionelle Küche von Grund auf zubereitet",
+      "Eigener Kuchen und Kuchentafel",
+      "Übernachtung für die Gäste auf dem Tun"
+    ],
+    "ctaHeading": "Gestalten wir den Tag gemeinsam",
+    "ctaBody": "Nehmen Sie Kontakt auf, und wir finden die beste Lösung für Ihre Feier."
+  },
+  "kultursenter": {
+    "kicker": "Was uns auszeichnet · Status Juli 2017",
+    "heading": "Norsk Kultursenter",
+    "intro": "Die gesamte Anlage erhielt im Juli 2017 den Status „Norsk Kultursenter“, gekennzeichnet mit braunen Sehenswürdigkeiten-Schildern entlang der Rv3 und Fv30. Sie finden hier ein Museum, eine Museumsbibliothek und eine national bedeutende Kunst- und Büchersammlung.",
+    "museumHeading": "Das Museum – „Von der Wiege in Sogn bis zum Reich des Østerdalen“",
+    "museumBody": "Ein Fjord-, Berg- und Reisemuseum mit dem Thema der Nationsbildung 1814–1864, untergebracht im Østerdalen-Blockhaus „Hektoen“. Das Museum und die Museumsbibliothek eröffneten am 16. Juli 2016, eingeweiht vom Senior-Kurator des Nasjonalmuseet Nils Messel und Bürgermeister Terje Hoffstad.",
+    "libraryHeading": "Die Bibliothek „Jegersborg“",
+    "libraryBody": "Die Museumsbibliothek befindet sich im Holzgebäude „Jegersborg“, dem zuletzt auf den Tun gekommenen Gebäude (um 1992), mit Bücherregalen der lokalen Firma Kaupang Møbler. Jegersborg eignet sich für literarische Veranstaltungen mit bis zu 25 Personen.",
+    "treasuresHeading": "Ausgewählte Schätze",
+    "treasures": [
+      "Mehrere Varianten von A.O. Vinjes „Ferdaminni“ (1861), inspiriert von seiner Reise durch Stor-Elvdal 1860",
+      "Ein signiertes Exemplar von Harald Sohlbergs Lithografie „Vinternatt i Rondane“ (1917), das in der Rezeption hängt",
+      "Erstausgaben der Nationsbildner Wergeland, Welhaven, Schwach, Vinje und Bjørnson",
+      "Olaus Magnus' Erstausgabe über die nordischen Völker (1555)",
+      "Jacob Zieglers Karte (1532), die erste, die das Østerdalen benennt",
+      "Ein gedrucktes Manuskript mit Rikard Nordraaks Noten zu „Ja, vi elsker“ (der norwegischen Nationalhymne)",
+      "Eine große Alf-Prøysen-Sammlung"
+    ],
+    "artHeading": "Die Kunst auf dem Tun",
+    "artBody": "Ein 2×3 m großes Ölgemälde von Bjarne Melgaard in der Bar „Nye Ladden“ sowie Werke von u. a. Franz Widerberg, Gunnar S. Gundersen, Frits Thaulow und Nils Hansteen. Die Museumssammlung umfasst Werke, die Johannes Flintoe, W.M. Carpelan, J.C. Dahl und A. Tidemand zugeschrieben werden, sowie seltene antike Norwegen-Karten.",
+    "sculptureHeading": "„Bølgen“ von Arnold Haukeland",
+    "sculptureBody": "Auf dem Tun steht „Bølgen“, eine etwa 2 m hohe Skulptur aus poliertem Edelstahl des Modernisten Arnold Haukeland (1924–1983), 1979–80 geschaffen und im Oktober 1980 enthüllt. Sie wurde um 2004 entfernt und 2015 von Pål Sagen zurückgekauft – ein scharfer modernistischer Kontrast zum Holz.",
+    "toursHeading": "Führungen mit Pål Sagen",
+    "toursBody": "Der Eigentümer bietet nach Vereinbarung persönliche Führungen durch Museum und Bibliothek an. Das Museum hat keine festen Öffnungszeiten, öffnet aber für Veranstaltungen und auf Anfrage. Führungen wurden historisch donnerstags und samstags angeboten – bitte nehmen Sie Kontakt auf, um einen Termin zu vereinbaren.",
+    "ctaHeading": "Eine Führung buchen",
+    "ctaBody": "Erleben Sie die Sammlung mit dem Eigentümer selbst. Nehmen Sie Kontakt auf, um einen Termin zu vereinbaren.",
+    "externalNote": "Das Norsk Kultursenter hat auch eine eigene Website: norsk-kultursenter.no"
+  },
+  "about": {
+    "kicker": "Über uns",
+    "heading": "Ein Hotel mit Geschichte",
+    "intro": "Ein Boutique-Hotel rund um einen Tun aus neun denkmalgeschützten Holzgebäuden – und ein Eigentümer, der Kunst und Kultur zum Herzen des Ortes gemacht hat.",
+    "historyHeading": "Der Tun und seine Geschichte",
+    "historyBody": "Das Hotel wurde 1975 als „Koppangtunet Hotell“ vom Reeder Lars Krogh gegründet. 1974–75 versetzte er neun denkmalgeschützte Holzgebäude aus anderen Teilen des Østerdalen auf das Grundstück und errichtete ein modernes Hotelgebäude. Nach einigen schwierigen Jahren übernahm Pål Sagen im März 2014.",
+    "tunHeading": "Der Tun",
+    "tunBody": "Die Anlage ist als Tun von etwa 10 mål (ein Hektar) angelegt, eingefasst von einem traditionellen Skigard-Zaun, mit dem Hauptgebäude, einem eigenen Bühnen-/Konzertgebäude und neun denkmalgeschützten oder erhaltenswerten Holzgebäuden. Das Kronjuwel ist die frisch restaurierte Barfrøstua – ein Østerdalen-Blockhaus von etwa 1800, bereits 1923 vom Riksantikvar unter Schutz gestellt und eines der besterhaltenen seiner Art.",
+    "ownerHeading": "Pål Sagen – Eigentümer und Kurator",
+    "ownerBody": "Pål Sagen (geb. 1959) ist Buchantiquar, Galerist und Kunsthändler und besitzt die Galleri Bygdøy Allé in Oslo – einen der führenden norwegischen Händler für antike Karten, norwegische Prospektansichten, seltene Bücher und klassische norwegische Kunst. Er ist Alleineigentümer und Geschäftsführer sowohl der Stor-Elvdal Hotell AS als auch der Norsk Kultursenter AS und hat familiäre Wurzeln in Luster in Sogn – die Grundlage für das Museumsthema „Von der Wiege in Sogn“.",
+    "factsHeading": "Fakten",
+    "facts": [
+      { "label": "Gegründet", "value": "1975 (als Koppangtunet Hotell)" },
+      { "label": "Eigentümer seit", "value": "Pål Sagen, März 2014" },
+      { "label": "Der Tun", "value": "9 denkmalgeschützte Holzgebäude, ca. 1 ha" },
+      { "label": "Mitarbeitende", "value": "ca. 20" }
+    ]
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "heading": "Kontakt und Buchung",
+    "intro": "Wir heißen Sie gerne willkommen. Die Buchung läuft über Visbook, oder nehmen Sie direkt Kontakt auf.",
+    "addressLabel": "Adresse",
+    "address": "Kjemsjøveien 1, 2480 Koppang",
+    "phoneLabel": "Telefon",
+    "phone": "+47 62 46 04 55",
+    "mobileLabel": "Mobil (Pål Sagen)",
+    "mobile": "+47 928 18 465",
+    "emailLabel": "E-Mail",
+    "email": "contact@storelvdalhotell.no",
+    "hoursLabel": "Öffnungszeiten",
+    "hours": "Mo–Sa 09:00–21:00 · So 09:00–20:00",
+    "bookingHeading": "Buchung",
+    "bookingBody": "Buchen Sie ein Zimmer direkt über Visbook.",
+    "bookingCta": "Zur Buchung",
+    "getThereHeading": "So finden Sie uns",
+    "getThereBody": "350 Meter vom Bahnhof Koppang an der Røros-Bahn – lassen Sie das Auto stehen und nehmen Sie den Zug über entur.no. Mit dem Auto: folgen Sie der Rv3, „der grünen Abkürzung“, durch das Østerdalen. Ab Oslo ca. 220 km; Røros ca. 130 km über die Fv30."
+  },
+  "footer": {
+    "tagline": "Ein Hotel mit Charakter – Kunst- und Kulinarikerlebnisse mitten im Østerdalen.",
+    "quickLinks": "Schnelllinks",
+    "contactHeading": "Kontakt",
+    "bookHeading": "Buchung",
+    "bookBody": "Buchung über Visbook",
+    "bookCta": "Zimmer buchen",
+    "rights": "Stor-Elvdal Hotell AS · Org.-Nr. 991 109 056",
+    "prototypeNote": "Prototyp – Faktengrundlage aus öffentlich zugänglichen Informationen."
+  }
+}
