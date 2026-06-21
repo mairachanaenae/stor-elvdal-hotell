@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    image: stor-elvdal-hotell
+    container_name: stor-elvdal-hotell
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped

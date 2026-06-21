@@ -21,11 +21,36 @@ default), English (`en`) and German (`de`).
 
 ## Getting started
 
+### Option A — Docker (no Node.js needed)
+
+One command builds and runs everything:
+
+```bash
+docker compose up --build
+```
+
+Then open **http://localhost:3000**. Stop with `Ctrl+C` (or `docker compose down`).
+
+Plain Docker, without compose:
+
+```bash
+docker build -t stor-elvdal-hotell .
+docker run --rm -p 3000:3000 stor-elvdal-hotell
+```
+
+### Option B — Node.js (for development)
+
+Requires Node.js 18.17+ (built/tested on Node 22).
+
 ```bash
 npm install
-npm run dev      # http://localhost:3000  → redirects to /no
-npm run build    # production build
+npm run dev      # http://localhost:3000  → redirects to /no (hot reload)
+npm run build    # optimized production build
+npm run start    # serve the production build
 ```
+
+Switch languages with the `no / en / de` toggle in the header, or go straight to
+`/en`, `/de`, `/en/kultursenter`, etc. Change the port with `npm run dev -- -p 3001`.
 
 ## Project structure
 
