@@ -3,15 +3,7 @@ import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { href, BOOKING_URL } from "@/lib/nav";
 import { CtaBand, Media } from "@/components/sections";
-import {
-  IconFood,
-  IconArt,
-  IconNature,
-  SceneGallery,
-  SceneMoose,
-  SceneLandscape,
-  MooseSilhouette,
-} from "@/components/icons";
+import { IconFood, IconArt, IconNature } from "@/components/icons";
 
 const pillarIcons = [IconFood, IconArt, IconNature];
 const pillarLinks = ["restaurant", "kultursenter", "kontakt"];
@@ -28,10 +20,7 @@ export default async function HomePage({
   return (
     <>
       {/* Hero */}
-      <section className="hero">
-        <div className="hero__bg">
-          <MooseSilhouette />
-        </div>
+      <section className="hero hero--photo">
         <div className="hero__inner">
           <span className="kicker">{t.heroKicker}</span>
           <h1>{dict.meta.tagline}</h1>
@@ -63,7 +52,11 @@ export default async function HomePage({
               <p>{t.introBody2}</p>
             </div>
             <Media>
-              <SceneLandscape />
+              <img
+                src="/photos/tower.jpg"
+                alt="Det hvite huset og den røde klokketårnet ved Stor-Elvdal Hotell, speilet i vann"
+                loading="lazy"
+              />
             </Media>
           </div>
         </div>
@@ -94,7 +87,11 @@ export default async function HomePage({
         <div className="container">
           <div className="split">
             <Media>
-              <SceneGallery />
+              <img
+                src="/photos/cabin.jpg"
+                alt="Tradisjonell tømmerbygning med torvtak i kveldssol"
+                loading="lazy"
+              />
             </Media>
             <div>
               <span className="kicker">{t.kultursenterKicker}</span>
@@ -150,7 +147,11 @@ export default async function HomePage({
               <p className="lede">{t.natureBody}</p>
             </div>
             <Media>
-              <SceneMoose />
+              <img
+                src="/photos/sunset.jpg"
+                alt="Solnedgang over tunet på Stor-Elvdal Hotell i Koppang"
+                loading="lazy"
+              />
             </Media>
           </div>
         </div>

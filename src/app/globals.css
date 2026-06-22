@@ -541,6 +541,26 @@ img {
   height: auto;
   display: block;
 }
+/* Photographic hero variant */
+.hero--photo {
+  background-image: url("/photos/hero.jpg");
+  background-size: cover;
+  background-position: center 62%;
+}
+.hero--photo::before {
+  background-image: linear-gradient(
+    100deg,
+    rgba(11, 16, 11, 0.88) 0%,
+    rgba(11, 16, 11, 0.62) 44%,
+    rgba(11, 16, 11, 0.24) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
 .hero__inner {
   position: relative;
   z-index: 2;
@@ -653,11 +673,13 @@ img {
   transform: translateY(-4px);
   box-shadow: 0 30px 70px -30px rgba(20, 30, 22, 0.7);
 }
-.media svg {
+.media svg,
+.media img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /* Event list */
