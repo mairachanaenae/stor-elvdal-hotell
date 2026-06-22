@@ -1,8 +1,25 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Fraunces, Inter } from "next/font/google";
 import "../globals.css";
 import { i18n, type Locale } from "@/i18n/config";
+
+// Display serif with optical sizing for headings; clean grotesk for body.
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-serif-web",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-sans-web",
+});
 import { getDictionary } from "@/i18n/dictionaries";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -40,8 +57,15 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale);
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
       <body>
+        {/* Apply saved/system theme before paint to avoid a flash. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.theme=t;}catch(e){}})();",
+          }}
+        />
         <Header locale={locale} dict={dict} />
         <main>{children}</main>
         <Footer locale={locale} dict={dict} />

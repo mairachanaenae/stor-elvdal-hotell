@@ -18,6 +18,7 @@
     "book": "Zimmer buchen"
   },
   "common": {
+    "themeToggle": "Hellen und dunklen Modus umschalten",
     "bookNow": "Jetzt buchen",
     "bookRoom": "Zimmer buchen",
     "readMore": "Mehr erfahren",

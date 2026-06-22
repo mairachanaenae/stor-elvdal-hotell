@@ -9,6 +9,8 @@ import {
   IconNature,
   SceneGallery,
   SceneMoose,
+  SceneLandscape,
+  MooseSilhouette,
 } from "@/components/icons";
 
 const pillarIcons = [IconFood, IconArt, IconNature];
@@ -28,7 +30,7 @@ export default async function HomePage({
       {/* Hero */}
       <section className="hero">
         <div className="hero__bg">
-          <SceneMoose />
+          <MooseSilhouette />
         </div>
         <div className="hero__inner">
           <span className="kicker">{t.heroKicker}</span>
@@ -61,7 +63,7 @@ export default async function HomePage({
               <p>{t.introBody2}</p>
             </div>
             <Media>
-              <SceneGallery />
+              <SceneLandscape />
             </Media>
           </div>
         </div>

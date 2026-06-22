@@ -1,0 +1,65 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["claude/new-session-jh03kd"]
+  workflow_dispatch:
+
+# Allow this workflow to publish to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One concurrent Pages deploy; newer pushes supersede in-flight ones.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      # Middleware is server-only and unused by the static export.
+      - name: Remove middleware
+        run: rm -f src/middleware.ts
+
+      - name: Build static site
+        env:
+          GITHUB_PAGES: "true"
+          PAGES_BASE_PATH: "/stor-elvdal-hotell"
+        run: npx next build
+
+      - name: Add Pages helpers (root redirect, 404, .nojekyll)
+        run: |
+          touch out/.nojekyll
+          cp out/no/index.html out/404.html
+          printf '%s' '<!doctype html><html lang="no"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=./no/"><link rel="canonical" href="./no/"><title>Stor-Elvdal Hotell</title><script>location.replace("./no/"+location.search+location.hash)</script></head><body><p>Omdirigerer til <a href="./no/">Stor-Elvdal Hotell</a> …</p></body></html>' > out/index.html
+
+      # Enables Pages on first run (build_type: workflow) using GITHUB_TOKEN.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

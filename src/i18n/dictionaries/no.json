@@ -18,6 +18,7 @@
     "book": "Bestill rom"
   },
   "common": {
+    "themeToggle": "Bytt mellom lyst og mørkt tema",
     "bookNow": "Bestill nå",
     "bookRoom": "Bestill rom",
     "readMore": "Les mer",

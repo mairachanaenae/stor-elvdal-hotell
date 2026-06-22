@@ -18,6 +18,7 @@
     "book": "Book a room"
   },
   "common": {
+    "themeToggle": "Toggle light and dark mode",
     "bookNow": "Book now",
     "bookRoom": "Book a room",
     "readMore": "Read more",

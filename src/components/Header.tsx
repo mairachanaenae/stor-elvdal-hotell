@@ -8,6 +8,7 @@ import type { Dictionary } from "@/i18n/dictionaries";
 import { navItems, href, BOOKING_URL } from "@/lib/nav";
 import { LogoMark } from "./icons";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header({
   locale,
@@ -62,6 +63,7 @@ export default function Header({
         </nav>
 
         <div className="header-actions">
+          <ThemeToggle label={dict.common.themeToggle ?? "Toggle dark mode"} />
           <LanguageSwitcher locale={locale} restPath={restPath} />
           <button
             className="nav-toggle"
