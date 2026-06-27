@@ -66,3 +66,22 @@ export function Photo({ src, alt }: { src: string; alt: string }) {
     </div>
   );
 }
+
+// Restaurant-style menu: splits each line into a dish name and an optional
+// description (on " – ") for a refined, printed-menu look.
+export function MenuList({ items }: { items: string[] }) {
+  return (
+    <ul className="menu-list">
+      {items.map((item) => {
+        const [name, ...rest] = item.split(/\s[–—-]\s/);
+        const desc = rest.join(" – ");
+        return (
+          <li className="menu-list__item" key={item}>
+            <span className="menu-list__name">{name}</span>
+            {desc ? <span className="menu-list__desc">{desc}</span> : null}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}

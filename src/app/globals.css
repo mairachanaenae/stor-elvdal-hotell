@@ -341,6 +341,47 @@ img {
   transform: rotate(45deg);
 }
 
+/* Restaurant-style menu */
+.menu-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+.menu-list__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 0 0.9rem 1.7rem;
+  border-bottom: 1px dashed var(--line);
+}
+.menu-list__item:first-child {
+  border-top: 1px dashed var(--line);
+}
+.menu-list__item::before {
+  content: "";
+  position: absolute;
+  left: 0.1rem;
+  top: 1.45rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--ochre-500);
+  transform: rotate(45deg);
+}
+.menu-list__name {
+  font-family: var(--font-serif);
+  font-size: clamp(1.12rem, 1.7vw, 1.32rem);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+  color: var(--forest-800);
+}
+.menu-list__desc {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
 .fact-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1074,6 +1115,9 @@ img {
 }
 [data-theme="dark"] .fact__value {
   color: var(--ochre-400);
+}
+[data-theme="dark"] .menu-list__name {
+  color: #f1ebdc;
 }
 [data-theme="dark"] .card--lift {
   box-shadow: 0 18px 44px -28px rgba(0, 0, 0, 0.8);

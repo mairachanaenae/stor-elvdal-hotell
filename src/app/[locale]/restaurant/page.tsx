@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, Photo } from "@/components/sections";
+import { PageHero, Photo, MenuList } from "@/components/sections";
 
 export async function generateMetadata({
   params,
@@ -29,11 +29,7 @@ export default async function RestaurantPage({
           <div className="split">
             <div>
               <h2>{t.menuHeading}</h2>
-              <ul className="tick-list">
-                {t.menuItems.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+              <MenuList items={t.menuItems} />
               <p className="note">{t.menuNote}</p>
             </div>
             <Photo
