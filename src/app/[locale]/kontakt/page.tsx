@@ -10,7 +10,7 @@ export async function generateMetadata({
   params: { locale: Locale };
 }): Promise<Metadata> {
   const dict = await getDictionary(params.locale);
-  return { title: dict.contact.heading };
+  return { title: dict.contact.heading, description: dict.contact.intro };
 }
 
 export default async function ContactPage({

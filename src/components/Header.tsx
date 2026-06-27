@@ -60,6 +60,9 @@ export default function Header({
           >
             {dict.nav.book}
           </a>
+          <div className="nav__lang">
+            <LanguageSwitcher locale={locale} restPath={restPath} />
+          </div>
         </nav>
 
         <div className="header-actions">

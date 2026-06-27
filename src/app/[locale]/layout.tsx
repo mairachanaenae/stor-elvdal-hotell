@@ -5,10 +5,10 @@ import { Fraunces, Inter } from "next/font/google";
 import "../globals.css";
 import { i18n, type Locale } from "@/i18n/config";
 
-// Display serif with optical sizing for headings; clean grotesk for body.
+// Display serif (variable: full weight range + true optical sizing) for
+// headings; clean grotesk for body.
 const fraunces = Fraunces({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
   display: "swap",
   variable: "--font-serif-web",
@@ -33,13 +33,50 @@ export async function generateMetadata({
 }: {
   params: { locale: Locale };
 }): Promise<Metadata> {
-  const dict = await getDictionary(params.locale);
+  const { locale } = params;
+  const dict = await getDictionary(locale);
+  const title = `${dict.meta.siteName} — ${dict.meta.tagline}`;
+  const ogLocale = locale === "no" ? "nb_NO" : locale === "de" ? "de_DE" : "en_US";
   return {
+    metadataBase: new URL("https://stor-elvdal-hotell.surge.sh"),
     title: {
-      default: `${dict.meta.siteName} — ${dict.meta.tagline}`,
+      default: title,
       template: `%s · ${dict.meta.siteName}`,
     },
     description: dict.meta.description,
+    applicationName: dict.meta.siteName,
+    authors: [{ name: dict.meta.siteName }],
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        nb: "/no",
+        en: "/en",
+        de: "/de",
+        "x-default": "/no",
+      },
+    },
+    openGraph: {
+      type: "website",
+      siteName: dict.meta.siteName,
+      title,
+      description: dict.meta.description,
+      url: `/${locale}`,
+      locale: ogLocale,
+      images: [
+        {
+          url: "/photos/hero.jpg",
+          width: 2000,
+          height: 1506,
+          alt: `${dict.meta.siteName}, ${dict.meta.place}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: dict.meta.description,
+      images: ["/photos/hero.jpg"],
+    },
   };
 }
 
