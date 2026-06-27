@@ -12,30 +12,62 @@ export function LogoMark({ className }: { className?: string }) {
   );
 }
 
+// Pillar icons share a soft "badge" disc with a clean line glyph for a
+// consistent, refined look on the home cards.
+const DISC = "rgba(169, 113, 47, 0.1)";
+
 export function IconFood({ className }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden>
-      <path d="M14 6v14a4 4 0 008 0V6M18 6v36M30 6c-3 0-5 5-5 11s2 9 5 9v16" strokeLinecap="round" strokeLinejoin="round" />
+    <svg className={className} viewBox="0 0 48 48" fill="none" aria-hidden>
+      <circle cx="24" cy="24" r="23" fill={DISC} />
+      <g
+        stroke="currentColor"
+        strokeWidth="2.1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M18 13v6a2.6 2.6 0 0 0 5.2 0v-6" />
+        <path d="M20.6 13v6" />
+        <path d="M20.6 21.2v13.8" />
+        <path d="M30 13v22" />
+        <path d="M30 13c4 1 4 9.5 0 11.5" />
+      </g>
     </svg>
   );
 }
 
 export function IconArt({ className }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden>
-      <rect x="7" y="9" width="34" height="26" rx="2" />
-      <path d="M12 30l8-9 6 6 5-6 5 6" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx="18" cy="17" r="2.4" />
-      <path d="M18 35v6M30 35v6M14 41h20" strokeLinecap="round" />
+    <svg className={className} viewBox="0 0 48 48" fill="none" aria-hidden>
+      <circle cx="24" cy="24" r="23" fill={DISC} />
+      <g
+        stroke="currentColor"
+        strokeWidth="2.1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <rect x="13" y="14" width="22" height="16" rx="2" />
+        <path d="M16 27l4-5 3 3 4-5 5 7" />
+        <circle cx="19" cy="19" r="1.5" fill="currentColor" stroke="none" />
+        <path d="M19.5 30v5M28.5 30v5" />
+      </g>
     </svg>
   );
 }
 
 export function IconNature({ className }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden>
-      <path d="M24 4l11 17h-7l9 14H11l9-14h-7z" strokeLinejoin="round" />
-      <path d="M24 35v9" strokeLinecap="round" />
+    <svg className={className} viewBox="0 0 48 48" fill="none" aria-hidden>
+      <circle cx="24" cy="24" r="23" fill={DISC} />
+      <g
+        stroke="currentColor"
+        strokeWidth="2.1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <circle cx="32.5" cy="16" r="2.6" />
+        <path d="M11.5 35l8.5-13.5 5 7 3.5-5.5 8 12z" />
+      </g>
     </svg>
   );
 }
