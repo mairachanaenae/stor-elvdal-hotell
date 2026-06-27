@@ -46,15 +46,17 @@ export default async function RestaurantPage({
 
       <section className="section section--forest">
         <div className="container">
-          <div className="grid grid-2">
+          <div className="split">
             <div>
               <h2>{t.aquavitHeading}</h2>
               <p className="lede">{t.aquavitBody}</p>
-            </div>
-            <div>
-              <h2>{t.pubHeading}</h2>
+              <h2 style={{ marginTop: "2rem" }}>{t.pubHeading}</h2>
               <p className="lede">{t.pubBody}</p>
             </div>
+            <Photo
+              src="/photos/askeladden.jpg"
+              alt="Puben «Askeladden» i kveldssol, speilet i en vannpytt"
+            />
           </div>
         </div>
       </section>
