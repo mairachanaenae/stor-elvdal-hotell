@@ -58,3 +58,11 @@ export function CtaBand({
 export function Media({ children }: { children: React.ReactNode }) {
   return <div className="media">{children}</div>;
 }
+
+export function Photo({ src, alt }: { src: string; alt: string }) {
+  return (
+    <div className="media">
+      <img src={src} alt={alt} loading="lazy" />
+    </div>
+  );
+}

@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, CtaBand, Media } from "@/components/sections";
-import { SceneGallery, SceneWinter } from "@/components/icons";
+import { PageHero, CtaBand, Photo } from "@/components/sections";
 import { href } from "@/lib/nav";
 
 export async function generateMetadata({
@@ -35,15 +34,17 @@ export default async function KultursenterPage({
               <h2>{t.museumHeading}</h2>
               <p className="lede">{t.museumBody}</p>
             </div>
-            <Media>
-              <SceneWinter />
-            </Media>
+            <Photo
+              src="/photos/kvernhuset.jpg"
+              alt="Kvernhuset – tradisjonell tømmerbygning med torvtak i høstfarger"
+            />
           </div>
 
           <div className="split" style={{ marginTop: "3rem" }}>
-            <Media>
-              <SceneGallery />
-            </Media>
+            <Photo
+              src="/photos/sunset.jpg"
+              alt="Solnedgang over tunet ved Stor-Elvdal Hotell"
+            />
             <div>
               <h2>{t.libraryHeading}</h2>
               <p className="lede">{t.libraryBody}</p>

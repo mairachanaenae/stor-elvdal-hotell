@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, CtaBand, Media } from "@/components/sections";
-import { SceneTun } from "@/components/icons";
+import { PageHero, CtaBand, Photo } from "@/components/sections";
 import { href } from "@/lib/nav";
 
 export async function generateMetadata({
@@ -30,9 +29,10 @@ export default async function EventsPage({
       <section className="section">
         <div className="container">
           <div className="split">
-            <Media>
-              <SceneTun />
-            </Media>
+            <Photo
+              src="/photos/market.jpg"
+              alt="Sommermarked med telt på plenen foran hotellet og det røde klokketårnet"
+            />
             <div>
               <h2>{t.barfrostuaHeading}</h2>
               <p className="lede">{t.barfrostuaBody}</p>

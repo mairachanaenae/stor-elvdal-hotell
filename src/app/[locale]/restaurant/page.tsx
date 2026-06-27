@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, Media } from "@/components/sections";
-import { SceneTun } from "@/components/icons";
+import { PageHero, Photo } from "@/components/sections";
 
 export async function generateMetadata({
   params,
@@ -37,9 +36,10 @@ export default async function RestaurantPage({
               </ul>
               <p className="note">{t.menuNote}</p>
             </div>
-            <Media>
-              <SceneTun />
-            </Media>
+            <Photo
+              src="/photos/cabin.jpg"
+              alt="Lun tømmerbygning med torvtak i kveldssol"
+            />
           </div>
         </div>
       </section>

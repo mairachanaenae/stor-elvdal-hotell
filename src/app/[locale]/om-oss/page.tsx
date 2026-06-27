@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, Media } from "@/components/sections";
-import { SceneTun, SceneGallery } from "@/components/icons";
+import { PageHero, Photo } from "@/components/sections";
 
 export async function generateMetadata({
   params,
@@ -32,9 +31,10 @@ export default async function AboutPage({
               <h2>{t.historyHeading}</h2>
               <p className="lede">{t.historyBody}</p>
             </div>
-            <Media>
-              <SceneTun />
-            </Media>
+            <Photo
+              src="/photos/hero.jpg"
+              alt="Tunet på Stor-Elvdal Hotell i gyllent kveldslys"
+            />
           </div>
 
           <div className="fact-grid">
@@ -51,9 +51,10 @@ export default async function AboutPage({
       <section className="section section--cream">
         <div className="container">
           <div className="split">
-            <Media>
-              <SceneTun />
-            </Media>
+            <Photo
+              src="/photos/milestone.jpg"
+              alt="Historisk milestolpe: 70 kilometer fra Hamar"
+            />
             <div>
               <h2>{t.tunHeading}</h2>
               <p className="lede">{t.tunBody}</p>
@@ -69,9 +70,10 @@ export default async function AboutPage({
               <h2>{t.ownerHeading}</h2>
               <p className="lede">{t.ownerBody}</p>
             </div>
-            <Media>
-              <SceneGallery />
-            </Media>
+            <Photo
+              src="/photos/rally.jpg"
+              alt="Veterankjøretøy samlet på plenen foran hotellet"
+            />
           </div>
         </div>
       </section>

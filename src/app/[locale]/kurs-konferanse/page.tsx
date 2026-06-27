@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, CtaBand, Media } from "@/components/sections";
-import { SceneTun } from "@/components/icons";
+import { PageHero, CtaBand, Photo } from "@/components/sections";
 import { href } from "@/lib/nav";
 
 export async function generateMetadata({
@@ -38,9 +37,10 @@ export default async function MeetingsPage({
                 ))}
               </ul>
             </div>
-            <Media>
-              <SceneTun />
-            </Media>
+            <Photo
+              src="/photos/tower.jpg"
+              alt="Det hvite huset og klokketårnet ved hotellet, speilet i vann"
+            />
           </div>
         </div>
       </section>
