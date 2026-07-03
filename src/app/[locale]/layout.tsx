@@ -45,6 +45,13 @@ export async function generateMetadata({
     },
     description: dict.meta.description,
     applicationName: dict.meta.siteName,
+    icons: {
+      icon: [
+        { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+        { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      ],
+      apple: "/apple-icon.png",
+    },
     authors: [{ name: dict.meta.siteName }],
     alternates: {
       canonical: `/${locale}`,

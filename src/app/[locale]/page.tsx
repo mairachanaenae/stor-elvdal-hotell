@@ -53,8 +53,8 @@ export default async function HomePage({
             </div>
             <Media>
               <img
-                src="/photos/tower.jpg"
-                alt="Det hvite huset og den røde klokketårnet ved Stor-Elvdal Hotell, speilet i vann"
+                src="/photos/tun-summer.jpg"
+                alt="Tunet en sommerdag – torvtekte tømmerhus rundt gresstunet og det norske flagget til værs"
                 loading="lazy"
               />
             </Media>

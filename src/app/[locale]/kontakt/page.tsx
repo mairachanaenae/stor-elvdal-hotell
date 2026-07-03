@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero } from "@/components/sections";
+import { PageHero, Photo } from "@/components/sections";
 import { BOOKING_URL } from "@/lib/nav";
 
 export async function generateMetadata({
@@ -63,8 +63,19 @@ export default async function ContactPage({
                 {t.bookingCta}
               </a>
 
-              <h3 style={{ marginTop: "2rem" }}>{t.getThereHeading}</h3>
-              <p style={{ margin: 0 }}>{t.getThereBody}</p>
+            </div>
+          </div>
+
+          <div className="split" style={{ marginTop: "3rem" }}>
+            <Photo
+              src="/photos/moose-statue.jpg"
+              alt="Elgskulpturen foran resepsjonen – et kjent landemerke når du ankommer tunet"
+            />
+            <div>
+              <h2>{t.getThereHeading}</h2>
+              <p className="lede" style={{ margin: 0 }}>
+                {t.getThereBody}
+              </p>
             </div>
           </div>
         </div>
