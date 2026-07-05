@@ -39,13 +39,19 @@ export default async function EventsPage({
             </div>
           </div>
 
-          <div style={{ marginTop: "2.5rem" }}>
-            <h2>{t.featuresHeading}</h2>
-            <ul className="tick-list">
-              {t.features.map((f) => (
-                <li key={f}>{f}</li>
-              ))}
-            </ul>
+          <div className="split" style={{ marginTop: "2.5rem" }}>
+            <div>
+              <h2>{t.featuresHeading}</h2>
+              <ul className="tick-list">
+                {t.features.map((f) => (
+                  <li key={f}>{f}</li>
+                ))}
+              </ul>
+            </div>
+            <Photo
+              src="/photos/tun-portrett.jpg"
+              alt="Tunet i sommergrønt – rammen rundt feiringen"
+            />
           </div>
         </div>
       </section>

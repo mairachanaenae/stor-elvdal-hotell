@@ -161,16 +161,25 @@ export default async function HomePage({
       <section className="section section--cream">
         <div className="container">
           <h2>{t.eventsHeading}</h2>
-          <div style={{ marginTop: "1.5rem" }}>
-            {t.events.map((ev) => (
-              <div className="event" key={ev.title}>
-                <div className="event__date">{ev.date}</div>
-                <div>
-                  <h3 className="mt-0">{ev.title}</h3>
-                  <p style={{ margin: 0 }}>{ev.text}</p>
+          <div className="split" style={{ marginTop: "1.5rem" }}>
+            <div>
+              {t.events.map((ev) => (
+                <div className="event" key={ev.title}>
+                  <div className="event__date">{ev.date}</div>
+                  <div>
+                    <h3 className="mt-0">{ev.title}</h3>
+                    <p style={{ margin: 0 }}>{ev.text}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            <Media>
+              <img
+                src="/photos/rally.jpg"
+                alt="Veterantreff på plenen – tunet har lang tradisjon som arrangementsplass"
+                loading="lazy"
+              />
+            </Media>
           </div>
         </div>
       </section>

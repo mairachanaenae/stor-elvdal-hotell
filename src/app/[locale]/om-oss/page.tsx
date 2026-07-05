@@ -71,8 +71,8 @@ export default async function AboutPage({
               <p className="lede">{t.ownerBody}</p>
             </div>
             <Photo
-              src="/photos/rally.jpg"
-              alt="Veterankjøretøy samlet på plenen foran hotellet"
+              src="/photos/kunst.jpg"
+              alt="Fra kunst- og boksamlingen på tunet"
             />
           </div>
         </div>

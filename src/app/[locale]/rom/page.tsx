@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { PageHero, CtaBand } from "@/components/sections";
+import { PageHero, CtaBand, Photo } from "@/components/sections";
 
 export async function generateMetadata({
   params,
@@ -35,7 +35,7 @@ export default async function RoomsPage({
             ))}
           </div>
 
-          <div className="grid grid-2" style={{ marginTop: "3rem" }}>
+          <div className="split" style={{ marginTop: "3rem" }}>
             <div>
               <h2>{t.factsHeading}</h2>
               <ul className="tick-list">
@@ -43,12 +43,12 @@ export default async function RoomsPage({
                   <li key={f}>{f}</li>
                 ))}
               </ul>
+              <div className="note">{t.inventoryNote}</div>
             </div>
-            <div>
-              <div className="note" style={{ marginTop: "3.2rem" }}>
-                {t.inventoryNote}
-              </div>
-            </div>
+            <Photo
+              src="/photos/rom-tunet.jpg"
+              alt="Rommene ligger i de historiske bygningene rundt tunet"
+            />
           </div>
         </div>
       </section>

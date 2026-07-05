@@ -79,15 +79,17 @@ export default async function KultursenterPage({
       {/* Art + sculpture */}
       <section className="section section--forest">
         <div className="container">
-          <div className="grid grid-2">
+          <div className="split">
             <div>
               <h2>{t.artHeading}</h2>
               <p className="lede">{t.artBody}</p>
-            </div>
-            <div>
-              <h2>{t.sculptureHeading}</h2>
+              <h2 style={{ marginTop: "2rem" }}>{t.sculptureHeading}</h2>
               <p className="lede">{t.sculptureBody}</p>
             </div>
+            <Photo
+              src="/photos/kunst-2.jpg"
+              alt="Kunst fra samlingen i Norsk Kultursenter"
+            />
           </div>
           <p className="note">{t.externalNote}</p>
         </div>
